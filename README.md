@@ -32,7 +32,7 @@ StockFlow is a backend-focused POS service intended to demonstrate how a Go HTTP
 
 The request path starts at the HTTP adapter. The application layer coordinates use cases and depends on domain contracts; infrastructure adapters provide the database and cache implementations. This keeps transport and storage concerns outside the core business logic.
 
-![StockFlow architecture](docs/architecture.svg)
+![StockFlow architecture](docs/StockFlow-Architecture.png)
 
 <details>
 <summary>View editable Mermaid architecture diagram</summary>
